@@ -57,8 +57,22 @@ h1{
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
+    
 }
 .experience-area{
     background-image: url('/images/exp-bg.png');
     background-repeat: no-repeat;
+}
+
+#webdeveloper-first{
+    border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+
+}
+
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
 }
