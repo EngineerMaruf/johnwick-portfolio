@@ -8,7 +8,7 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexible{
     display: flex;
 }
 .half-width{
@@ -44,4 +44,21 @@ section{
 
 .dream-big img {
     width: 100%;
+}
+
+.text-size{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+}
+.experience-area{
+    background-image: url('/images/exp-bg.png');
+    background-repeat: no-repeat;
 }
